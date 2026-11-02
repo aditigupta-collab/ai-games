@@ -1,0 +1,182 @@
+[
+    {
+        "timestamp": "20261102_113433",
+        "prompt": "A highly detailed, colorful cartoon illustration of a paris cafe",
+        "total_misses": 7,
+        "miss_coordinates": [
+            [
+                40,
+                243
+            ],
+            [
+                427,
+                265
+            ],
+            [
+                230,
+                179
+            ],
+            [
+                224,
+                211
+            ],
+            [
+                204,
+                214
+            ],
+            [
+                204,
+                194
+            ],
+            [
+                282,
+                257
+            ]
+        ],
+        "hit_coordinates": [
+            [
+                100,
+                381
+            ],
+            [
+                215,
+                249
+            ],
+            [
+                381,
+                388
+            ],
+            [
+                105,
+                83
+            ],
+            [
+                356,
+                54
+            ]
+        ],
+        "difficulty_ratio": 1.4,
+        "base_image_file": "base_20261102_113433.png",
+        "alt_image_file": "alt_20261102_113433.png"
+    },
+    {
+        "timestamp": "20261102_132304",
+        "prompt": "A highly detailed, colorful cartoon illustration of a square in Venice",
+        "total_misses": 4,
+        "miss_coordinates": [
+            [
+                338,
+                358
+            ],
+            [
+                381,
+                331
+            ],
+            [
+                255,
+                218
+            ],
+            [
+                240,
+                237
+            ]
+        ],
+        "hit_coordinates": [
+            [
+                194,
+                246
+            ],
+            [
+                421,
+                422
+            ],
+            [
+                89,
+                358
+            ],
+            [
+                99,
+                89
+            ],
+            [
+                362,
+                53
+            ]
+        ],
+        "difficulty_ratio": 0.8,
+        "base_image_file": "base_20261102_132304.png",
+        "alt_image_file": "alt_20261102_132304.png"
+    },
+    {
+        "timestamp": "20261102_134206",
+        "prompt": "A highly detailed, colorful cartoon illustration of the leaning tower of pisa plaza",
+        "total_misses": 1,
+        "miss_coordinates": [
+            [
+                70,
+                352
+            ]
+        ],
+        "hit_coordinates": [
+            [
+                371,
+                391
+            ],
+            [
+                74,
+                395
+            ],
+            [
+                77,
+                83
+            ],
+            [
+                353,
+                54
+            ],
+            [
+                306,
+                312
+            ]
+        ],
+        "difficulty_ratio": 0.2,
+        "base_image_file": "base_20261102_134206.png",
+        "alt_image_file": "alt_20261102_134206.png"
+    },
+    {
+        "timestamp": "20261102_134853",
+        "prompt": "A highly detailed, colorful cartoon illustration of a busy city playground.",
+        "total_misses": 1,
+        "miss_coordinates": [
+            [
+                424,
+                324
+            ]
+        ],
+        "hit_coordinates": [
+            [
+                61,
+                363
+            ],
+            [
+                275,
+                409
+            ],
+            [
+                258,
+                206
+            ],
+            [
+                58,
+                86
+            ],
+            [
+                420,
+                87
+            ]
+        ],
+        "difficulty_ratio": 0.2,
+        "base_image_file": "base_20261102_134853.png",
+        "alt_image_file": "alt_20261102_134853.png"
+    }
+]
