@@ -24,3 +24,40 @@ games/
 ├── auto_grader.py      # Backend evaluation engine & accuracy auditor
 ├── eval_dashboard.py   # Streamlit evaluation dashboard & visual audit tool
 └── eval_logs.json      # Structured session telemetry database
+
+📊 Evaluation Metrics Explained
+Playability Score (0-100): Calculated using a friction ratio (Misses / Target Diffs). It measures how frustrating or balanced a level design is for the player.
+
+Hit-Detection Accuracy (%): Evaluates code precision by determining whether a miss was a true user error or a code failure (bounding box too tight / False Negative).
+
+System Health Status: Automatically categorizes system performance into Healthy, Moderate Friction, or High Friction, outputting concrete tuning actions for wrappers and prompts.
+
+⚙️ Getting Started & Running Locally
+1. Prerequisites
+Make sure you have Python installed along with the required packages:
+
+Bash
+pip install streamlit openai pandas pillow
+2. Set Your OpenAI API Key
+Export your OpenAI API key in your terminal session:
+
+Bash
+export OPENAI_API_KEY="your-actual-api-key-here"
+3. Run the Game (app.py)
+Launch the gameplay application to generate levels and record telemetry:
+
+Bash
+streamlit run app.py
+4. Run the Evaluation Dashboard (eval_dashboard.py)
+Launch the dashboard in a separate terminal window to audit past sessions, view accuracy metrics, and check system recommendations:
+
+Bash
+streamlit run eval_dashboard.py
+🛠️ The Evaluation Loop
+Play: User plays the game, generating telemetry logs (eval_logs.json).
+
+Audit: The auto-grader ingests logs and runs computer vision heatmaps to check for code vs. user errors.
+
+Inspect: The Eval PM reviews session heatmaps and metric trends via the Streamlit dashboard.
+
+Iterate: Actionable recommendations drive adjustments to code parameters (hitbox padding) or prompt engineering strategies.
