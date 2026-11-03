@@ -66,16 +66,19 @@ Iterate: Actionable recommendations drive adjustments to code parameters (hitbox
 
 ### 1. The Gameplay Interface (`app.py`)
 Players interact with side-by-side AI-generated images, clicking differences while telemetry tracks hits and misses in real-time[cite: 1].
+
 ![Spot the Difference Gameplay Interface](https://raw.githubusercontent.com/aditigupta-collab/ai-games/main/games/assets/gameplay.png)
 
 ---
 
 ### 2. The Evaluation Dashboard (`eval_dashboard.py`)
 An overview of session health, playability scores, and agent improvement recommendations[cite: 2].
+
 ![Eval Dashboard Metrics and Recommendations](https://raw.githubusercontent.com/aditigupta-collab/ai-games/main/games/assets/dashboard-metrics.png)
 
 ---
 
 ### 3. Visual Session Review & Accuracy Audit
 The auto-grader cross-references click telemetry against computer vision difference heatmaps to isolate code errors (false negatives) from user errors[cite: 3].
+
 ![Visual Audit and Hit-Detection Accuracy](https://raw.githubusercontent.com/aditigupta-collab/ai-games/main/games/assets/dashboard-audit.png)
